@@ -10,10 +10,13 @@ app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+console.log('EMAIL_USER:', process.env.EMAIL_USER);
+console.log('EMAIL_PASS:', process.env.EMAIL_PASS ? '***' : 'undefined');
+
 app.post('/contact', async (req, res) => {
   const { name, email, message, phone, subject } = req.body;
 
-  console.log('Received contact form:', req.body);
+  
 
   let transporter = nodemailer.createTransport({
     service: 'gmail',
