@@ -2,13 +2,18 @@ require('dotenv').config();
 const nodemailer = require('nodemailer');
 const express = require('express');
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
+const cors = require('cors');
+app.use(cors());
+
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.post('/contact', async (req, res) => {
-  const { name, email, message } = req.body;
+  const { name, email, message, phone, subject } = req.body;
+
+  console.log('Received contact form:', req.body);
 
   let transporter = nodemailer.createTransport({
     service: 'gmail',
@@ -22,7 +27,12 @@ app.post('/contact', async (req, res) => {
     from: email,
     to: 'giovannacambraia8@gmail.com',
     subject: `New message from ${name}`,
-    text: message
+    text: `
+    Name: ${name}
+    Email: ${email}
+    Phone: ${phone || 'N/A'}
+    Message: ${message}
+    `
   };
 
   try {
