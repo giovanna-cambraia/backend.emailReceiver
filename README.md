@@ -2,6 +2,7 @@ Portfolio Email Backend
 
 A simple and sleek backend to handle messages from your portfolio website. Built with Node.js, Express, and Nodemailer to send emails directly to you! 🚀
 
+
 ✨ Features
 
 📩 Receive messages from your portfolio contact form
@@ -76,3 +77,85 @@ Your message will be forwarded straight to your inbox! 🎉
 Keep your credentials safe 🔐
 
 Perfect for personal projects, portfolios, or demos 🌟
+
+-------------
+
+✉️ Backend de Email para Portfólio
+
+Um backend simples e elegante para receber mensagens do seu site de portfólio, construído com Node.js, Express e Nodemailer, enviando emails direto para você! 🚀
+
+
+✨ Funcionalidades
+
+📩 Recebe mensagens do formulário de contato
+
+🔒 Envia emails de forma segura via Nodemailer
+
+⚡ Leve, fácil de configurar e integrar
+
+🖥️ Ideal para portfólios pessoais e demos
+
+🛠️ Tecnologias
+
+Node.js 🟢
+
+Express ⚡
+
+Nodemailer ✉️
+
+JavaScript 💻
+
+🚀 Instalação
+
+1️⃣ Clone o repositório:
+
+```bash
+git clone <url-do-seu-repo>
+cd <pasta-do-repo>
+```
+
+2️⃣ Instale as dependências:
+
+```bash
+npm install
+```
+
+3️⃣ Crie um arquivo .env na raiz com suas credenciais:
+
+```bash
+EMAIL_USER=seu-email@exemplo.com
+EMAIL_PASS=sua-senha-do-email
+EMAIL_HOST=smtp.exemplo.com
+EMAIL_PORT=587
+```
+
+⚠️ Use senhas de app ou credenciais seguras se usar Gmail ou serviços similares.
+
+4️⃣ Inicie o servidor:
+
+```bash
+npm start
+```
+
+O servidor rodará em: http://localhost:3000 🌐
+
+📬 Uso
+
+Envie um POST para /send-email com JSON:
+
+```bash
+{
+  "name": "Seu Nome",
+  "email": "seu.email@exemplo.com",
+  "subject": "Olá!",
+  "message": "Esta é uma mensagem de teste do meu portfólio."
+}
+```
+
+Sua mensagem será encaminhada direto para sua caixa de entrada! 🎉
+
+💡 Observações
+
+🔐 Mantenha suas credenciais seguras
+
+🌟 Perfeito para projetos pessoais, portfólios ou demonstrações
