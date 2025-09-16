@@ -1,4 +1,4 @@
-Portfolio Email Backend
+# ✉️ Portfolio Email Backend
 
 A simple and sleek backend to handle messages from your portfolio website. Built with Node.js, Express, and Nodemailer to send emails directly to you! 🚀
 
@@ -80,7 +80,7 @@ Perfect for personal projects, portfolios, or demos 🌟
 
 -------------
 
-✉️ Backend de Email para Portfólio
+# ✉️ Backend de Email para Portfólio
 
 Um backend simples e elegante para receber mensagens do seu site de portfólio, construído com Node.js, Express e Nodemailer, enviando emails direto para você! 🚀
 
