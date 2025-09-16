@@ -26,33 +26,33 @@ JavaScript 💻
 
 Clone the repo:
 
-´´´
+```bash
 git clone <your-repo-url>
 cd <repo-folder>
-´´´
+```
 
 Install dependencies:
 
-´´´
+```bash
 npm install
-´´´
+```
 
 Create a .env file in the root with your email credentials:
 
-´´´
+```bash
 EMAIL_USER=your-email@example.com
 EMAIL_PASS=your-email-password
 EMAIL_HOST=smtp.example.com
 EMAIL_PORT=587
-´´´
+```
 
 ⚠️ Use app passwords or secure credentials if using Gmail or similar providers.
 
 Start the server:
 
-´´´
+```bash
 npm start
-´´´
+```
 
 Server runs at: http://localhost:3000 🌐
 
@@ -60,14 +60,14 @@ Server runs at: http://localhost:3000 🌐
 
 Send a POST request to /send-email with JSON:
 
-´´´
+```bash
 {
   "name": "Your Name",
   "email": "your.email@example.com",
   "subject": "Hello!",
   "message": "This is a test message from my portfolio."
 }
-´´´
+```
 
 Your message will be forwarded straight to your inbox! 🎉
 
