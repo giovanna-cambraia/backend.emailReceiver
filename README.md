@@ -1,9 +1,9 @@
-# ✉️ Portfolio Email Backend
+## ✉️ Portfolio Email Backend
 
 A simple and sleek backend to handle messages from your portfolio website. Built with Node.js, Express, and Nodemailer to send emails directly to you! 🚀
 
 
-✨ Features
+## ✨ Features
 
 📩 Receive messages from your portfolio contact form
 
@@ -13,32 +13,30 @@ A simple and sleek backend to handle messages from your portfolio website. Built
 
 🖥️ Perfect for personal portfolios
 
-🛠️ Technologies
+## 🛠️ Tecnologias
 
-Node.js 🟢
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)  
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)  
+![Nodemailer](https://img.shields.io/badge/Nodemailer-D14836?style=for-the-badge&logo=nodemailer&logoColor=white)  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
 
-Express ⚡
 
-Nodemailer ✉️
+## 🚀 Installation
 
-JavaScript 💻
-
-🚀 Installation
-
-Clone the repo:
+# 1️⃣ Clone the repo:
 
 ```bash
 git clone <your-repo-url>
 cd <repo-folder>
 ```
 
-Install dependencies:
+# 2️⃣ Install dependencies:
 
 ```bash
 npm install
 ```
 
-Create a .env file in the root with your email credentials:
+# 3️⃣ Create a .env file in the root with your email credentials:
 
 ```bash
 EMAIL_USER=your-email@example.com
@@ -47,9 +45,9 @@ EMAIL_HOST=smtp.example.com
 EMAIL_PORT=587
 ```
 
-⚠️ Use app passwords or secure credentials if using Gmail or similar providers.
+# ⚠️ Use app passwords or secure credentials if using Gmail or similar providers.
 
-Start the server:
+4️⃣ Start the server:
 
 ```bash
 npm start
@@ -72,7 +70,7 @@ Send a POST request to /send-email with JSON:
 
 Your message will be forwarded straight to your inbox! 🎉
 
-💡 Notes
+## 💡 Notes
 
 Keep your credentials safe 🔐
 
@@ -80,12 +78,12 @@ Perfect for personal projects, portfolios, or demos 🌟
 
 -------------
 
-# ✉️ Backend de Email para Portfólio
+## ✉️ Backend de Email para Portfólio
 
 Um backend simples e elegante para receber mensagens do seu site de portfólio, construído com Node.js, Express e Nodemailer, enviando emails direto para você! 🚀
 
 
-✨ Funcionalidades
+## ✨ Funcionalidades
 
 📩 Recebe mensagens do formulário de contato
 
@@ -95,32 +93,29 @@ Um backend simples e elegante para receber mensagens do seu site de portfólio, 
 
 🖥️ Ideal para portfólios pessoais e demos
 
-🛠️ Tecnologias
+## 🛠️ Tecnologias
 
-Node.js 🟢
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)  
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)  
+![Nodemailer](https://img.shields.io/badge/Nodemailer-D14836?style=for-the-badge&logo=nodemailer&logoColor=white)  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
 
-Express ⚡
+## 🚀 Instalação
 
-Nodemailer ✉️
-
-JavaScript 💻
-
-🚀 Instalação
-
-1️⃣ Clone o repositório:
+# 1️⃣ Clone o repositório:
 
 ```bash
 git clone <url-do-seu-repo>
 cd <pasta-do-repo>
 ```
 
-2️⃣ Instale as dependências:
+# 2️⃣ Instale as dependências:
 
 ```bash
 npm install
 ```
 
-3️⃣ Crie um arquivo .env na raiz com suas credenciais:
+# 3️⃣ Crie um arquivo .env na raiz com suas credenciais:
 
 ```bash
 EMAIL_USER=seu-email@exemplo.com
@@ -129,7 +124,7 @@ EMAIL_HOST=smtp.exemplo.com
 EMAIL_PORT=587
 ```
 
-⚠️ Use senhas de app ou credenciais seguras se usar Gmail ou serviços similares.
+# ⚠️ Use senhas de app ou credenciais seguras se usar Gmail ou serviços similares.
 
 4️⃣ Inicie o servidor:
 
@@ -154,7 +149,7 @@ Envie um POST para /send-email com JSON:
 
 Sua mensagem será encaminhada direto para sua caixa de entrada! 🎉
 
-💡 Observações
+## 💡 Observações
 
 🔐 Mantenha suas credenciais seguras
 
