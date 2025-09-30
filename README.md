@@ -1,4 +1,4 @@
-## ✉️ Portfolio Email Backend
+# ✉️ Portfolio Email Backend
 
 A simple and sleek backend to handle messages from your portfolio website. Built with Node.js, Express, and Nodemailer to send emails directly to you! 🚀
 
@@ -23,20 +23,20 @@ A simple and sleek backend to handle messages from your portfolio website. Built
 
 ## 🚀 Installation
 
-# 1️⃣ Clone the repo:
+1️⃣ Clone the repo:
 
 ```bash
 git clone <your-repo-url>
 cd <repo-folder>
 ```
 
-# 2️⃣ Install dependencies:
+2️⃣ Install dependencies:
 
 ```bash
 npm install
 ```
 
-# 3️⃣ Create a .env file in the root with your email credentials:
+3️⃣ Create a .env file in the root with your email credentials:
 
 ```bash
 EMAIL_USER=your-email@example.com
@@ -45,7 +45,7 @@ EMAIL_HOST=smtp.example.com
 EMAIL_PORT=587
 ```
 
-# ⚠️ Use app passwords or secure credentials if using Gmail or similar providers.
+⚠️ Use app passwords or secure credentials if using Gmail or similar providers.
 
 4️⃣ Start the server:
 
@@ -78,7 +78,7 @@ Perfect for personal projects, portfolios, or demos 🌟
 
 -------------
 
-## ✉️ Backend de Email para Portfólio
+# ✉️ Backend de Email para Portfólio
 
 Um backend simples e elegante para receber mensagens do seu site de portfólio, construído com Node.js, Express e Nodemailer, enviando emails direto para você! 🚀
 
@@ -102,20 +102,20 @@ Um backend simples e elegante para receber mensagens do seu site de portfólio, 
 
 ## 🚀 Instalação
 
-# 1️⃣ Clone o repositório:
+1️⃣ Clone o repositório:
 
 ```bash
 git clone <url-do-seu-repo>
 cd <pasta-do-repo>
 ```
 
-# 2️⃣ Instale as dependências:
+2️⃣ Instale as dependências:
 
 ```bash
 npm install
 ```
 
-# 3️⃣ Crie um arquivo .env na raiz com suas credenciais:
+3️⃣ Crie um arquivo .env na raiz com suas credenciais:
 
 ```bash
 EMAIL_USER=seu-email@exemplo.com
@@ -124,7 +124,7 @@ EMAIL_HOST=smtp.exemplo.com
 EMAIL_PORT=587
 ```
 
-# ⚠️ Use senhas de app ou credenciais seguras se usar Gmail ou serviços similares.
+⚠️ Use senhas de app ou credenciais seguras se usar Gmail ou serviços similares.
 
 4️⃣ Inicie o servidor:
 
